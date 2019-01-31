@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ListViewSample;assembly=ListViewSample"
+             xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             x:Class="ListViewSample.MainPage">
+    <ContentPage.BindingContext>
+        <local:ContactsViewModel x:Name="viewModel"/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <listView:SfListView x:Name="listView" ItemSize="70" SelectionMode="Multiple" IsStickyFooter="True"
+                           ItemsSource="{Binding contactsinfo}" ItemSpacing="0,0,5,0" >
+
+                <listView:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid >
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid x:Name="grid" RowSpacing="1" >
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="1" />
+                                        </Grid.RowDefinitions>
+                                        <Grid RowSpacing="1">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="70" />
+                                            </Grid.ColumnDefinitions>
+
+                                            <Grid Grid.Column="0"
+                      RowSpacing="1"
+                      Padding="10,0,0,0"
+                      VerticalOptions="Center">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="*" />
+                                                    <RowDefinition Height="*" />
+                                                </Grid.RowDefinitions>
+
+                                                <Label LineBreakMode="NoWrap"
+                         TextColor="#474747"
+                         Text="{Binding ContactName}">
+                                                </Label>
+                                                <Label Grid.Row="1"
+                         Grid.Column="0"
+                         TextColor="#474747"
+                         LineBreakMode="NoWrap"
+                         Text="{Binding ContactNumber}">
+                                                </Label>
+                                            </Grid>
+                                        </Grid>
+                                        <StackLayout Grid.Row="1" BackgroundColor="Gray" HeightRequest="1"/>
+                                    </Grid>
+                                    <Button WidthRequest="150" Text="Delete" Grid.Column="1" Command="{Binding Path=BindingContext.DeleteCommand, Source={x:Reference listView}}" CommandParameter="{Binding .}"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </listView:SfListView.ItemTemplate>
+   
+            </listView:SfListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
