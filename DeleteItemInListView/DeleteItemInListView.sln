@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteItemInListView", "DeleteItemInListView.csproj", "{E128E9FC-F433-417F-8F20-DC0ADC11F9C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteItemInListView", ".\DeleteItemInListView\DeleteItemInListView\DeleteItemInListView.csproj", "{E128E9FC-F433-417F-8F20-DC0ADC11F9C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteItemInListView.Android", "..\DeleteItemInListView.Android\DeleteItemInListView.Android.csproj", "{8D346F4A-7D0E-4B8D-A887-EADE9483EF4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteItemInListView.Android", ".\DeleteItemInListView\DeleteItemInListView.Android\DeleteItemInListView.Android.csproj", "{8D346F4A-7D0E-4B8D-A887-EADE9483EF4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteItemInListView.iOS", "..\DeleteItemInListView.iOS\DeleteItemInListView.iOS.csproj", "{62B61D3C-07B0-42C3-AA96-F9D51CC41BC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteItemInListView.iOS", ".\DeleteItemInListView\DeleteItemInListView.iOS\DeleteItemInListView.iOS.csproj", "{62B61D3C-07B0-42C3-AA96-F9D51CC41BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteItemInListView.UWP", "..\DeleteItemInListView.UWP\DeleteItemInListView.UWP.csproj", "{532C2AF7-C210-40A3-9F7E-397C74058705}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteItemInListView.UWP", ".\DeleteItemInListView\DeleteItemInListView.UWP\DeleteItemInListView.UWP.csproj", "{532C2AF7-C210-40A3-9F7E-397C74058705}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
