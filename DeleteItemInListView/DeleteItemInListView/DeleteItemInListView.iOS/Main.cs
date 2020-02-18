@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace ListViewSample.iOS
+namespace DeleteItemInListView.iOS
 {
     public class Application
     {

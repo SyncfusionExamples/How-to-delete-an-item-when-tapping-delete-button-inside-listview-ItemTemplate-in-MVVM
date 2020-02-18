@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace ListViewSample 
+namespace DeleteItemInListView
 {
     public class Contacts : INotifyPropertyChanged
     {

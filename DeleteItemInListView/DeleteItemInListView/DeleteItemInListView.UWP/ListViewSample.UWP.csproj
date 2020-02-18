@@ -11,7 +11,7 @@
     <AssemblyName>ListViewSample.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -146,14 +146,14 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Syncfusion.Xamarin.SfListView">
-      <Version>16.3.0.36</Version>
+      <Version>17.4.0.49</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991640" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ListViewSample\ListViewSample.csproj">
-      <Project>{7150DEF3-1BF5-429C-99B8-F6A3CAB4B812}</Project>
+    <ProjectReference Include="..\DeleteItemInListView\ListViewSample.csproj">
+      <Project>{e01a5ea8-f7b4-49f6-98af-3010756552d0}</Project>
       <Name>ListViewSample</Name>
     </ProjectReference>
   </ItemGroup>

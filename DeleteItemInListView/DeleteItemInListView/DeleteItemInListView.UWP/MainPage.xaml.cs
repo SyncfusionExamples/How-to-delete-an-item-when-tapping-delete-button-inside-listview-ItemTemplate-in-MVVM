@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace ListViewSample.UWP
+namespace DeleteItemInListView.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace ListViewSample.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new ListViewSample.App());
+            LoadApplication(new DeleteItemInListView.App());
         }
     }
 }
