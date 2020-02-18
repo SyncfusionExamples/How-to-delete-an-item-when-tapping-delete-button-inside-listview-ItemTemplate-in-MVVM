@@ -3,7 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace ListViewSample
+namespace DeleteItemInListView
 {
     public partial class App : Application
     {

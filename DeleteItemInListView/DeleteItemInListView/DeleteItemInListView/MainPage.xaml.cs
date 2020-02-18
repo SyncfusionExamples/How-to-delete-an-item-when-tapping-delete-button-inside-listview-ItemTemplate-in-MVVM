@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace ListViewSample
+namespace DeleteItemInListView
 {
     public partial class MainPage : ContentPage
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace ListViewSample 
+namespace DeleteItemInListView
 {
     public class ContactsViewModel : INotifyPropertyChanged
     {
@@ -27,7 +27,7 @@ namespace ListViewSample
             contactsinfo = new ObservableCollection<Contacts>();
             DeleteCommand = new Command<object>(OnTapped);
             Random r = new Random();
-            AddIcon = ImageSource.FromResource("ListViewSample.Images.Image" + 0 + ".png", typeof(MainPage));
+            AddIcon = ImageSource.FromResource("DeleteItemInListView.Images.Image" + 0 + ".png", typeof(MainPage));
             for (int i=0;i<CustomerNames.Count();i++)
             {
                 var contact = new Contacts();
