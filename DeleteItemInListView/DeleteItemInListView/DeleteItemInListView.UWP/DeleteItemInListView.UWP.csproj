@@ -152,9 +152,9 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DeleteItemInListView\ListViewSample.csproj">
-      <Project>{e01a5ea8-f7b4-49f6-98af-3010756552d0}</Project>
-      <Name>ListViewSample</Name>
+    <ProjectReference Include="..\DeleteItemInListView\DeleteItemInListView.csproj">
+      <Project>{01f39811-362f-43fe-90f5-facca433af9d}</Project>
+      <Name>DeleteItemInListView</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

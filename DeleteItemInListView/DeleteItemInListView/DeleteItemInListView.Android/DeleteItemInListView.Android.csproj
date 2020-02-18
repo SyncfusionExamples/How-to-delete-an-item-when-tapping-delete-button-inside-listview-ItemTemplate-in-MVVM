@@ -101,9 +101,9 @@
     <AndroidAsset Include="Assets\tt1.wav" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DeleteItemInListView\ListViewSample.csproj">
-      <Project>{e01a5ea8-f7b4-49f6-98af-3010756552d0}</Project>
-      <Name>ListViewSample</Name>
+    <ProjectReference Include="..\DeleteItemInListView\DeleteItemInListView.csproj">
+      <Project>{e128e9fc-f433-417f-8f20-dc0adc11f9c9}</Project>
+      <Name>DeleteItemInListView</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
