@@ -54,7 +54,3 @@ namespace ListViewSample
        }
 }
 ```
-
-**Output**
-
-![]()
